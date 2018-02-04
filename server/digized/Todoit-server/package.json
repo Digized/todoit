@@ -1,0 +1,23 @@
+{
+  "name": "Todoit-server",
+  "version": "0.0.0",
+  "description": "",
+  "author": "digized <zzafa015@uottawa.ca>",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "clarifai": "^2.6.0",
+    "jimp": "^0.2.28",
+    "request": "^2.83.0"
+  },
+  "private": false,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "digized/Todoit-server",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  }
+}
